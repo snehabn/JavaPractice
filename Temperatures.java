@@ -13,9 +13,9 @@ public class Temperatures {
 		weeklyTemperatures.add(2, 111);
 		System.out.println( weeklyTemperatures.get(3) );
 
-		for (int j = 0; j < weeklyTemperatures.size(); j++){
-			System.out.println(weeklyTemperatures.get(j) );
-		}
+		// for (int j = 0; j < weeklyTemperatures.size(); j++){
+		// 	System.out.println(weeklyTemperatures.get(j) );
+		// }
 
 		// Alternatively can be written:
 		for (Integer temperature : weeklyTemperatures) {
